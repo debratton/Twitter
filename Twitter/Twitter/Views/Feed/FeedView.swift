@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FeedView: View {
     // MARK: - PROPERTIES
+    @State private var isShowingNewTweetView = false
     
     // MARK: - BODY
     var body: some View {
@@ -22,7 +23,7 @@ struct FeedView: View {
                 .padding()
             } //END:SCROLLVIEW
             Button {
-                //
+                isShowingNewTweetView.toggle()
             } label: {
                 Image("tweet")
                     .resizable()
@@ -35,6 +36,9 @@ struct FeedView: View {
             .clipShape(Circle())
             .padding()
         } //END:ZSTACK
+        .fullScreenCover(isPresented: $isShowingNewTweetView) {
+            NewTweetView(isPresented: $isShowingNewTweetView)
+        }
     }
 }
 
