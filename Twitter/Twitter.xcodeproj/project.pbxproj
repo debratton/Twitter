@@ -28,8 +28,15 @@
 		904099B928A590B0002FA6B5 /* ChatCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904099B828A590B0002FA6B5 /* ChatCellView.swift */; };
 		904099BC28A59155002FA6B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904099BB28A59155002FA6B5 /* Constants.swift */; };
 		9041A3BC28A67057003E578A /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9041A3BB28A67057003E578A /* NewMessageView.swift */; };
+		90A9FB5828A975AE00B1B004 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9FB5728A975AE00B1B004 /* ImagePickerView.swift */; };
 		90BF6CE928A44D84006D87BB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BF6CE828A44D84006D87BB /* SearchView.swift */; };
 		90BF6CEB28A44EB9006D87BB /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BF6CEA28A44EB9006D87BB /* SearchBarView.swift */; };
+		90E63D7628A82DCB00CE1D7C /* TextAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E63D7528A82DCB00CE1D7C /* TextAreaView.swift */; };
+		90E63D7928A8371900CE1D7C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E63D7828A8371900CE1D7C /* LoginView.swift */; };
+		90E63D7B28A8373F00CE1D7C /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E63D7A28A8373F00CE1D7C /* RegistrationView.swift */; };
+		90E63D7D28A8375600CE1D7C /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E63D7C28A8375600CE1D7C /* ForgetPasswordView.swift */; };
+		90E63D7F28A83CF600CE1D7C /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E63D7E28A83CF600CE1D7C /* TextFieldView.swift */; };
+		90E63D8128A8419D00CE1D7C /* TextSecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E63D8028A8419D00CE1D7C /* TextSecureFieldView.swift */; };
 		90FFF9D128A7E3C1007C34FD /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFF9D028A7E3C1007C34FD /* NewTweetView.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +63,15 @@
 		904099B828A590B0002FA6B5 /* ChatCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCellView.swift; sourceTree = "<group>"; };
 		904099BB28A59155002FA6B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9041A3BB28A67057003E578A /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		90A9FB5728A975AE00B1B004 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		90BF6CE828A44D84006D87BB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		90BF6CEA28A44EB9006D87BB /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		90E63D7528A82DCB00CE1D7C /* TextAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAreaView.swift; sourceTree = "<group>"; };
+		90E63D7828A8371900CE1D7C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		90E63D7A28A8373F00CE1D7C /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		90E63D7C28A8375600CE1D7C /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
+		90E63D7E28A83CF600CE1D7C /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		90E63D8028A8419D00CE1D7C /* TextSecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSecureFieldView.swift; sourceTree = "<group>"; };
 		90FFF9D028A7E3C1007C34FD /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				9024465C28A4176B000B9B2D /* App */,
+				90E63D7328A82D9300CE1D7C /* Utils */,
 				903BA3FD28A6C82300106C55 /* Enum */,
 				904099BA28A59141002FA6B5 /* Contants */,
 				9024465F28A4188B000B9B2D /* ViewModels */,
@@ -122,6 +137,7 @@
 		9024465D28A4177A000B9B2D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90E63D7728A8370200CE1D7C /* Authentication */,
 				90FFF9CF28A7E3A9007C34FD /* Tweets */,
 				903BA3F428A6B6F700106C55 /* Profile */,
 				903BA3F328A6B69100106C55 /* Search */,
@@ -207,6 +223,35 @@
 			path = Contants;
 			sourceTree = "<group>";
 		};
+		90E63D7328A82D9300CE1D7C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				90E63D7428A82D9E00CE1D7C /* CustomViews */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		90E63D7428A82D9E00CE1D7C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				90E63D7528A82DCB00CE1D7C /* TextAreaView.swift */,
+				90E63D7E28A83CF600CE1D7C /* TextFieldView.swift */,
+				90E63D8028A8419D00CE1D7C /* TextSecureFieldView.swift */,
+				90A9FB5728A975AE00B1B004 /* ImagePickerView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		90E63D7728A8370200CE1D7C /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				90E63D7828A8371900CE1D7C /* LoginView.swift */,
+				90E63D7A28A8373F00CE1D7C /* RegistrationView.swift */,
+				90E63D7C28A8375600CE1D7C /* ForgetPasswordView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		90FFF9CF28A7E3A9007C34FD /* Tweets */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,10 +332,14 @@
 			files = (
 				904099AF28A574D4002FA6B5 /* ConversationCellView.swift in Sources */,
 				904099B128A57D81002FA6B5 /* MessageInputView.swift in Sources */,
+				90E63D7D28A8375600CE1D7C /* ForgetPasswordView.swift in Sources */,
 				904099AA28A56A33002FA6B5 /* SearchCellView.swift in Sources */,
 				90BF6CE928A44D84006D87BB /* SearchView.swift in Sources */,
 				904099B328A57F9B002FA6B5 /* ChatView.swift in Sources */,
 				904099BC28A59155002FA6B5 /* Constants.swift in Sources */,
+				90E63D8128A8419D00CE1D7C /* TextSecureFieldView.swift in Sources */,
+				90E63D7928A8371900CE1D7C /* LoginView.swift in Sources */,
+				90E63D7F28A83CF600CE1D7C /* TextFieldView.swift in Sources */,
 				903BA3FF28A6C85A00106C55 /* TweetFilterOptions.swift in Sources */,
 				903BA3FC28A6BC1600106C55 /* FilterButtonView.swift in Sources */,
 				9024465128A41316000B9B2D /* ContentView.swift in Sources */,
@@ -298,10 +347,13 @@
 				904099B528A581BC002FA6B5 /* ChatBubbleView.swift in Sources */,
 				9041A3BC28A67057003E578A /* NewMessageView.swift in Sources */,
 				903BA3F628A6B70700106C55 /* UserProfileView.swift in Sources */,
+				90E63D7B28A8373F00CE1D7C /* RegistrationView.swift in Sources */,
 				903BA3FA28A6BBE200106C55 /* ProfileActionButtonView.swift in Sources */,
 				9024466128A418C2000B9B2D /* FeedView.swift in Sources */,
 				9024464F28A41316000B9B2D /* TwitterApp.swift in Sources */,
 				904099B728A58A5C002FA6B5 /* Message.swift in Sources */,
+				90E63D7628A82DCB00CE1D7C /* TextAreaView.swift in Sources */,
+				90A9FB5828A975AE00B1B004 /* ImagePickerView.swift in Sources */,
 				903BA3F828A6BB8100106C55 /* ProfileHeaderView.swift in Sources */,
 				90BF6CEB28A44EB9006D87BB /* SearchBarView.swift in Sources */,
 				90FFF9D128A7E3C1007C34FD /* NewTweetView.swift in Sources */,
